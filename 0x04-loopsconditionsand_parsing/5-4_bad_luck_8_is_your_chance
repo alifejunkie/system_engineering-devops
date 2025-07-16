@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Prints loop message based on iteration number
 i=1
 while [ $i -le 10 ]; do
