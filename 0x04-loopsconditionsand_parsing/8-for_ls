@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Lists current directory contents showing part after first dash
 for file in *-*; do
   echo "${file#*-}"
