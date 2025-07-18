@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Stop the infinity loop without using kill or killall
+
+pids=$(pgrep -f "./4-to_infinity_and_beyond")
+for pid in $pids; do
+  kill -TERM "$pid"
+done
